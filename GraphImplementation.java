@@ -11,7 +11,6 @@ public class GraphImplementation implements Graph {
         matrix = new int[verticies][verticies];
     }
 
-
     /**
      * Adds a directed edge between two vertices.
      * */
@@ -19,8 +18,6 @@ public class GraphImplementation implements Graph {
     public void addEdge(int v1, int v2) throws Exception {
         matrix[v1][v2] = 1;
     }
-    
-
 
     /**
      * Prints the ordering of vertices.
@@ -64,7 +61,6 @@ public class GraphImplementation implements Graph {
 
         return schedule;
     }
-
 
     /**
      * Returns a list of vertix IDs.
